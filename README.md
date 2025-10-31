@@ -1,0 +1,4 @@
+Percobaan 1
+1. Output jumlah bintang yang dicetak menjadi lebih banyak satu. Karena loop dimulai dari i = 1 sampai N, sehingga total perulangan adalah N kali. Jika diubah menjadi i = 0, maka perulangannya akan dimulai dari 0, 1, 2, ..., sampai N. Berarti perulangan berjalan N + 1 kali.
+2. Perulangan tidak akan berjalan, sehingga tidak ada bintang yang dicetak. Karena i = 1, sedangkan kondisi yang dicek adalah i > N, dan jika nilai N berapa pun yang positif, 1 > N adalah false. Karena kondisi awal langsung salah, blok for tidak pernah dijalankan.
+3. Program akan mencetak bintang tanpa henti sampai program dihentikan secara paksa. Karena i dimulai dari 1, kondisi loop i <= N. Tetapi setiap iterasi i justru berkurang (i--), sehingga i menjadi 0, -1, -2, dan seterusnya. Nilai i menjadi tidak pernah mencapai syarat berhenti/false.4. 
