@@ -8,3 +8,7 @@ Percobaan 2
 2. Mencetak lebih banyak satu bintang dari yang seharusnya. Semula: i berjalan dari 1 → iOuter → jumlah bintang = iOuter. Diubah: i berjalan dari 0 → iOuter → jumlah bintang = iOuter + 1
 3. Perulangan luar= Mengatur jumlah baris yang akan dicetak. Perulangan dalam= Mengatur jumlah bintang di setiap baris.
 4. Untuk pindah ke baris berikutnya setelah perulangan dalam selesai mencetak bintang. Jika dihilangkan, maka semua bintang dicetak dalam satu baris panjang dan pola segitiga tidak terbentuk.
+
+Percobaan 3
+1. Tidak sesuai
+2. Mengubah inisialisasi i = i, agar baris pertama langsung mencetak * dan jumlah baris sesuai N, bukan N + 1. Menambahkan System.out.println() setelah inner loop agar mencetak bintang pada 1 baris setelahnya
